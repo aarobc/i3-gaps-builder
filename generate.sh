@@ -6,3 +6,6 @@ cd /opt/i3-gaps-next &&
   checkinstall --install=no --pkgversion 1 --pakdir /opt/deb --nodoc -y\
   && git clean -f
 
+cd /tmp/xcb-util-xrm &&\
+  checkinstall --install=no --pkgversion 1 --pakdir /opt/deb --nodoc -y\
+
