@@ -1,0 +1,8 @@
+builder:
+  image: aarobc/build_i3_env
+  volumes:
+    - ./i3:/opt/i3-gaps-next
+    # - /home/ac/Documents/i3-gaps-next:/opt/i3-gaps-next
+    - ./deb:/opt/deb
+
+
